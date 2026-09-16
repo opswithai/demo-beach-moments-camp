@@ -12,3 +12,4 @@ Source profile: https://www.instagram.com/beach_moments_camp/
 | images-ig/06.jpg | https://www.instagram.com/beach_moments_camp/reel/Dcs0ca5I4CK/ |
 
 Notes: 01–02 are stills from photo posts. 03–06 are still thumbnail images shown in the profile grid for the corresponding reel posts; no Reels tab was browsed.
+- 06.jpg removed: was byte-identical to 03.jpg
