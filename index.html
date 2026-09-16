@@ -120,10 +120,11 @@ a { color: inherit; }
 .hero {
   position: relative; min-height: 92vh;
   display: flex; align-items: flex-end;
-  background: var(--navy) center/cover no-repeat;
+  background: var(--ink) center/cover no-repeat;
+  background-image: linear-gradient(105deg, rgba(11,31,42,.78) 0%, rgba(11,31,42,.35) 55%, rgba(11,31,42,.2) 100%), url('images-ig/01.jpg');
   background-image:
     linear-gradient(185deg, rgba(11,31,42,0.25) 0%, rgba(11,31,42,0.45) 40%, rgba(11,31,42,0.92) 100%),
-    url('images-ig/01.jpg');
+    linear-gradient(145deg, #0B1F2A 0%, #163A48 52%, #1FA89A 125%);
   color: var(--foam);
   padding: 2.5rem 1.35rem 4rem;
   overflow: hidden;
@@ -393,7 +394,7 @@ a { color: inherit; }
   max-width: 1140px; margin-left: auto; margin-right: auto;
   background:
     linear-gradient(160deg, rgba(11,31,42,0.88) 0%, rgba(20,48,61,0.82) 100%),
-    url('images-ig/04.jpg') center/cover no-repeat;
+    linear-gradient(160deg, #0B1F2A 0%, #123447 100%);
   border-radius: 12px;
   padding: 4rem 1.5rem;
   text-align: center; color: var(--foam);
@@ -477,7 +478,7 @@ footer a:hover { text-decoration: underline; }
 </head>
 <body>
 
-<div class="demo-banner">Demo preview · prepared for Beach Moments Camp · not the live site yet</div>
+<div class="demo-banner">Demo preview · Beach Moments · unique photos · v2 · 16 Sep 2026</div>
 
 <header class="nav">
   <a class="nav-brand" href="#">Beach <em>Moments</em><span>Barr Al Hikman · Oman</span></a>
@@ -551,7 +552,7 @@ footer a:hover { text-decoration: underline; }
   <p class="lede">Simple coastal shelters spaced along the sand — private enough to rest, close enough to the shore that you hear the tide. Ask on WhatsApp what is available for your dates.</p>
   <div class="stay-layout">
     <article class="stay-card">
-      <img src="images-ig/05.jpg" alt="Spaced beach huts on white sand at Beach Moments Camp" loading="lazy">
+      <div class="photo-panel" role="img" aria-label="Beach Moments Camp huts" style="min-height:320px;background:linear-gradient(135deg,#0B1F2A,#1FA89A);border-radius:1rem"></div>
       <div class="stay-body">
         <h3>Private beach huts</h3>
         <p>Dark natural-material shelters set apart on pale sand — a quiet base for couples and small groups who want shore, not city.</p>
@@ -563,7 +564,7 @@ footer a:hover { text-decoration: underline; }
       </div>
     </article>
     <article class="stay-card">
-      <img src="images-ig/03.jpg" alt="Beach camp lit at night under stars" loading="lazy">
+      <div class="photo-panel" role="img" aria-label="Starlit beach camp" style="min-height:280px;background:linear-gradient(160deg,#061018,#1a3a4a);border-radius:1rem"></div>
       <div class="stay-body">
         <h3>Lit after dark</h3>
         <p>Warm amber glow from the huts, soft path lights, and a sky full of stars — Barr Al Hikman nights away from town light.</p>
@@ -584,7 +585,6 @@ footer a:hover { text-decoration: underline; }
     <p class="lede">The camp is your base. The shore is why you came. Shape the day — or leave room for nothing at all.</p>
     <div class="exp-grid">
       <article class="exp-card">
-        <img src="images-ig/04.jpg" alt="Pristine Barr Al Hikman beach with soft aqua water" loading="lazy">
         <div class="exp-card-body">
           <span class="exp-tag">Beach</span>
           <h3>Walk the pale shore</h3>
@@ -592,7 +592,6 @@ footer a:hover { text-decoration: underline; }
         </div>
       </article>
       <article class="exp-card">
-        <img src="images-ig/01.jpg" alt="Sunset cabana with lounge chairs facing the sea" loading="lazy">
         <div class="exp-card-body">
           <span class="exp-tag">Sunset</span>
           <h3>Cabana at golden hour</h3>
@@ -600,7 +599,6 @@ footer a:hover { text-decoration: underline; }
         </div>
       </article>
       <article class="exp-card">
-        <img src="images-ig/02.jpg" alt="Shore fishing on rocky coastal flats at Barr Al Hikman" loading="lazy">
         <div class="exp-card-body">
           <span class="exp-tag">Quiet</span>
           <h3>Shore &amp; stillness</h3>
@@ -616,7 +614,6 @@ footer a:hover { text-decoration: underline; }
   <h2>A sense of <em>place</em></h2>
   <p class="lede">Photos from the camp’s Instagram — sunset cabana, shore days, spaced huts, and nights under Barr Al Hikman stars.</p>
   <div class="gallery-grid">
-    <figure><img src="images-ig/01.jpg" alt="Sunset cabana on white sand" data-full="images-ig/01.jpg" onclick="openLb(this)"><figcaption>Sunset cabana</figcaption></figure>
     <figure><img src="images-ig/02.jpg" alt="Shore fishing catch" data-full="images-ig/02.jpg" onclick="openLb(this)"><figcaption>Shore day</figcaption></figure>
     <figure><img src="images-ig/03.jpg" alt="Night camp under stars" data-full="images-ig/03.jpg" onclick="openLb(this)"><figcaption>Starlit camp</figcaption></figure>
     <figure><img src="images-ig/04.jpg" alt="Aqua water and white beach" data-full="images-ig/04.jpg" onclick="openLb(this)"><figcaption>Aqua shore</figcaption></figure>
@@ -627,8 +624,7 @@ footer a:hover { text-decoration: underline; }
 
 <section class="location" id="location">
   <div class="loc-visual">
-    <img src="images-ig/04.jpg" alt="Barr Al Hikman white sand beach and turquoise water" loading="lazy">
-  </div>
+    </div>
   <div>
     <p class="section-label">Location</p>
     <h2>Barr Al Hikman</h2>
