@@ -3,739 +3,470 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Beach Moments Camp · Barr Al Hikman · Oman</title>
-<meta name="description" content="A quiet beach camp on Barr Al Hikman — white sand, sunset cabanas, private huts, and soft coastal nights. Enquire on WhatsApp.">
+<title>Beach Moments Camp | Bar Al Hikman, Oman</title>
+<meta name="description" content="Beachfront camping at Bar Al Hikman, Oman. White sand, turquoise lagoons, flamingos and dark night skies. Book on WhatsApp.">
+<meta name="theme-color" content="#04293A">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏕️</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500;1,9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Figtree:wght@400;500;600;700&family=Noto+Kufi+Arabic:wght@500;700&display=swap" rel="stylesheet">
 <style>
-:root {
-  --navy: #0B1F2A;
-  --navy-mid: #14303D;
-  --charcoal: #1A2E38;
-  --foam: #FFFFFF;
-  --foam-soft: #F4F7F8;
-  --line: #D5DEE3;
-  --muted: #4A5F6A;
-  --ink: #0B1F2A;
-  --seafoam: #1FA89A;
-  --seafoam-deep: #16877B;
-  --seafoam-soft: rgba(31, 168, 154, 0.12);
-  --wa: #25D366;
-}
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body {
-  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
-  color: var(--ink);
-  background: var(--foam);
-  line-height: 1.65;
-  font-weight: 400;
-  padding-bottom: 5rem;
-}
-h1, h2, h3, .serif {
-  font-family: 'Fraunces', Georgia, serif;
-  font-weight: 600;
-  font-optical-sizing: auto;
-  letter-spacing: -0.02em;
-}
-img { max-width: 100%; display: block; height: auto; }
-a { color: inherit; }
-
-.demo-banner {
-  background: var(--navy);
-  color: var(--seafoam);
-  font-size: 0.72rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 0.6rem 1rem;
-  position: sticky; top: 0; z-index: 100;
-  font-weight: 700;
-  border-bottom: 2px solid var(--seafoam);
-}
-
-/* —— Navbar: bigger + bolder —— */
-.nav {
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 1.15rem 1.35rem; max-width: 1140px; margin: 0 auto;
-  border-bottom: 1px solid var(--line);
-  background: var(--foam);
-}
-.nav-brand {
-  font-family: 'Fraunces', serif;
-  font-size: 1.65rem;
-  font-weight: 700;
-  text-decoration: none;
-  letter-spacing: -0.03em;
-  color: var(--navy);
-  line-height: 1.05;
-}
-.nav-brand em {
-  font-style: italic;
-  color: var(--seafoam);
-  font-weight: 600;
-}
-.nav-brand span {
-  display: block;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 0.68rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--muted);
-  margin-top: 0.3rem;
-  font-weight: 700;
-}
-.nav-links {
-  display: none; gap: 1.65rem;
-  font-size: 0.92rem; font-weight: 700;
-  letter-spacing: 0.02em;
-}
-.nav-links a {
-  text-decoration: none; color: var(--navy-mid);
-  transition: color 0.15s;
-}
-.nav-links a:hover { color: var(--seafoam-deep); }
-.nav-toggle {
-  background: var(--navy); border: none;
-  border-radius: 6px; padding: 0.55rem 1.05rem;
-  font-size: 0.78rem; cursor: pointer;
-  color: var(--foam); font-weight: 800;
-  letter-spacing: 0.08em; text-transform: uppercase;
-}
-.nav-mobile {
-  display: none; flex-direction: column; gap: 0;
-  padding: 0 1.35rem 1.25rem; background: var(--foam);
-  border-bottom: 1px solid var(--line);
-}
-.nav-mobile.open { display: flex; }
-.nav-mobile a {
-  text-decoration: none;
-  font-size: 1.05rem; font-weight: 700;
-  padding: 0.85rem 0.15rem;
-  border-bottom: 1px solid var(--line);
-  color: var(--navy);
-}
-
-.hero {
-  position: relative; min-height: 92vh;
-  display: flex; align-items: flex-end;
-  background-color: var(--ink);
-  background-image:
-    linear-gradient(185deg, rgba(11,31,42,0.25) 0%, rgba(11,31,42,0.45) 40%, rgba(11,31,42,0.92) 100%),
-    url('images-ig/01.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: var(--foam);
-  padding: 2.5rem 1.35rem 4rem;
-  overflow: hidden;
-}
-.hero-inner { position: relative; z-index: 2; max-width: 700px; }
-.eyebrow {
-  display: inline-flex; align-items: center; gap: 0.55rem;
-  font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.2em;
-  color: var(--seafoam); margin-bottom: 1.1rem; font-weight: 700;
-}
-.eyebrow::before {
-  content: ""; width: 1.75rem; height: 2px;
-  background: var(--seafoam); border-radius: 2px;
-}
-.hero h1 {
-  font-size: clamp(2.85rem, 9.5vw, 4.5rem); line-height: 1.02;
-  margin-bottom: 1.1rem; font-weight: 700;
-}
-.hero h1 em { font-style: italic; color: var(--seafoam); font-weight: 600; }
-.hero-ar {
-  font-size: 0.95rem; opacity: 0.8; margin-bottom: 0.85rem;
-  font-weight: 500; letter-spacing: 0.02em;
-}
-.hero-lead {
-  font-size: 1.08rem; opacity: 0.92; max-width: 34em;
-  font-weight: 400; line-height: 1.75; color: rgba(255,255,255,0.9);
-}
-.ctas { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.9rem; }
-.btn {
-  display: inline-flex; align-items: center; justify-content: center; gap: 0.45rem;
-  padding: 0.95rem 1.55rem; border-radius: 6px; text-decoration: none;
-  font-size: 0.88rem; font-weight: 700; letter-spacing: 0.02em;
-  border: 2px solid transparent; transition: filter 0.15s, background 0.15s, transform 0.12s, color 0.15s;
-}
-.btn:hover { transform: translateY(-1px); }
-.btn-wa { background: var(--wa); color: #06280f; }
-.btn-wa:hover { filter: brightness(1.06); }
-.btn-ghost {
-  background: transparent; color: var(--foam);
-  border-color: rgba(255,255,255,0.55);
-}
-.btn-ghost:hover { background: rgba(255,255,255,0.1); }
-.btn-seafoam { background: var(--seafoam); color: #fff; }
-.btn-seafoam:hover { background: var(--seafoam-deep); }
-.btn-outline {
-  background: transparent; color: var(--navy);
-  border-color: var(--navy);
-}
-.btn-outline:hover { background: var(--navy); color: var(--foam); }
-
-.section { padding: 5.25rem 1.35rem; max-width: 1140px; margin: 0 auto; }
-.section-label {
-  font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.2em;
-  color: var(--seafoam-deep); font-weight: 800; margin-bottom: 0.7rem;
-}
-.section h2 {
-  font-size: clamp(2.15rem, 5.5vw, 3rem); line-height: 1.1;
-  margin-bottom: 1rem; color: var(--navy);
-}
-.section h2 em { font-style: italic; color: var(--seafoam-deep); font-weight: 600; }
-.section .lede {
-  color: var(--muted); font-size: 1.05rem; max-width: 38em;
-  margin-bottom: 2.4rem; font-weight: 400; line-height: 1.75;
-}
-
-.why-band {
-  background: var(--foam-soft);
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
-  padding: 4.5rem 1.35rem;
-  margin: 0;
-  max-width: none;
-}
-.why-band .section { padding: 0; max-width: 1140px; }
-.why-grid {
-  display: grid; gap: 1rem;
-  grid-template-columns: 1fr;
-}
-.why-card {
-  background: var(--foam);
-  border-radius: 10px;
-  padding: 1.5rem 1.4rem;
-  border: 1px solid var(--line);
-  border-left: 4px solid var(--seafoam);
-}
-.why-card .num {
-  font-family: 'Fraunces', serif; font-style: italic;
-  font-size: 1.5rem; color: var(--seafoam); line-height: 1;
-  margin-bottom: 0.65rem; font-weight: 600;
-}
-.why-card h3 { font-size: 1.25rem; margin-bottom: 0.45rem; color: var(--navy); }
-.why-card p { color: var(--muted); font-size: 0.95rem; }
-
-.stay {
-  padding: 5.25rem 1.35rem;
-  max-width: 1140px; margin: 0 auto;
-}
-.stay-layout { display: grid; gap: 1.25rem; }
-.stay-card {
-  position: relative; border-radius: 12px; overflow: hidden;
-  min-height: 340px; display: flex; align-items: flex-end;
-  background: var(--navy) center/cover no-repeat;
-  color: var(--foam);
-}
-.stay-card::before {
-  content: ""; position: absolute; inset: 0;
-  background: linear-gradient(180deg, transparent 25%, rgba(11,31,42,0.9) 100%);
-}
-.stay-card > * { position: relative; z-index: 1; }
-.stay-card img {
-  position: absolute; inset: 0; width: 100%; height: 100%;
-  object-fit: cover;
-}
-.stay-body { padding: 1.75rem; }
-.stay-body h3 { font-size: 1.55rem; margin-bottom: 0.45rem; }
-.stay-body p { font-size: 0.95rem; opacity: 0.9; max-width: 28em; }
-.pill-row { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-top: 1rem; }
-.pill {
-  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.06em;
-  text-transform: uppercase; padding: 0.35rem 0.7rem;
-  border-radius: 4px; background: rgba(31,168,154,0.2);
-  border: 1px solid rgba(31,168,154,0.45); color: #B8F0E8;
-}
-
-.exp-section {
-  background: var(--navy);
-  color: var(--foam);
-  padding: 5.25rem 0;
-}
-.exp-inner { max-width: 1140px; margin: 0 auto; padding: 0 1.35rem; }
-.exp-section .section-label { color: var(--seafoam); }
-.exp-section h2 { color: var(--foam); }
-.exp-section h2 em { color: var(--seafoam); }
-.exp-section .lede { color: rgba(255,255,255,0.7); }
-.exp-grid { display: grid; gap: 1.15rem; }
-.exp-card {
-  background: var(--navy-mid);
-  border-radius: 10px;
-  overflow: hidden;
-  border: 1px solid rgba(255,255,255,0.08);
-  display: grid;
-}
-.exp-card img {
-  width: 100%; aspect-ratio: 16/10; object-fit: cover;
-}
-.exp-card-body { padding: 1.4rem 1.35rem 1.55rem; }
-.exp-card h3 { font-size: 1.35rem; margin-bottom: 0.4rem; color: var(--foam); }
-.exp-card p { color: rgba(255,255,255,0.68); font-size: 0.95rem; }
-.exp-tag {
-  display: inline-block; font-size: 0.65rem; font-weight: 800;
-  letter-spacing: 0.14em; text-transform: uppercase;
-  color: var(--seafoam); margin-bottom: 0.55rem;
-}
-
-/* —— Gallery: clean even grid (no masonry) —— */
-.gallery-wrap {
-  padding: 5.25rem 1.35rem;
-  max-width: 1140px; margin: 0 auto;
-}
-.gallery-grid {
-  display: grid;
-  gap: 0.85rem;
-  grid-template-columns: 1fr 1fr;
-}
-.gallery-grid figure {
-  margin: 0;
-  border-radius: 8px;
-  overflow: hidden;
-  background: var(--charcoal);
-  cursor: zoom-in;
-  position: relative;
-  aspect-ratio: 1 / 1;
-}
-.gallery-grid img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.4s ease;
-}
-.gallery-grid figure:hover img { transform: scale(1.04); }
-.gallery-grid figcaption {
-  position: absolute; left: 0; right: 0; bottom: 0;
-  padding: 1.35rem 0.85rem 0.7rem;
-  background: linear-gradient(transparent, rgba(11,31,42,0.85));
-  color: var(--foam); font-size: 0.78rem; font-weight: 600;
-}
-
-.location {
-  display: grid; gap: 2rem;
-  padding: 0 1.35rem 5.25rem;
-  max-width: 1140px; margin: 0 auto;
-  align-items: center;
-}
-.loc-visual {
-  border-radius: 12px; overflow: hidden;
-  background: var(--navy);
-  border: 1px solid var(--line);
-}
-.loc-visual img {
-  width: 100%; aspect-ratio: 4/3; object-fit: cover;
-}
-.loc-card {
-  background: var(--foam-soft);
-  border: 1px solid var(--line);
-  border-left: 4px solid var(--seafoam);
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin-top: 0.5rem;
-}
-.loc-card h3 { font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--navy); }
-.loc-card p { color: var(--muted); font-size: 0.95rem; }
-
-.booking {
-  background: var(--navy);
-  color: var(--foam);
-  padding: 5rem 1.35rem;
-}
-.booking-inner { max-width: 800px; margin: 0 auto; }
-.booking .section-label { color: var(--seafoam); }
-.booking h2 { color: var(--foam); }
-.booking .lede { color: rgba(255,255,255,0.7); }
-.steps { display: grid; gap: 1rem; }
-.step {
-  display: grid; grid-template-columns: auto 1fr; gap: 1.1rem;
-  align-items: start;
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 10px;
-  padding: 1.25rem 1.35rem;
-}
-.step-num {
-  width: 2.4rem; height: 2.4rem; border-radius: 6px;
-  background: var(--seafoam); color: #fff;
-  display: flex; align-items: center; justify-content: center;
-  font-family: 'Fraunces', serif; font-size: 1.15rem; font-weight: 700;
-  flex-shrink: 0;
-}
-.step h3 { font-size: 1.2rem; margin-bottom: 0.3rem; color: var(--foam); }
-.step p { color: rgba(255,255,255,0.68); font-size: 0.95rem; }
-
-.faq {
-  padding: 5.25rem 1.35rem;
-  max-width: 760px; margin: 0 auto;
-}
-.faq details {
-  border-bottom: 1px solid var(--line);
-  padding: 1.15rem 0;
-}
-.faq summary {
-  cursor: pointer; font-weight: 700; font-size: 1.05rem;
-  list-style: none; display: flex; justify-content: space-between; gap: 1rem;
-  align-items: center; color: var(--navy);
-}
-.faq summary::-webkit-details-marker { display: none; }
-.faq summary::after {
-  content: "+"; font-family: 'Fraunces', serif; font-size: 1.4rem;
-  color: var(--seafoam); font-weight: 600; line-height: 1;
-}
-.faq details[open] summary::after { content: "–"; }
-.faq details p {
-  margin-top: 0.75rem; color: var(--muted);
-  font-size: 0.98rem; padding-right: 1.5rem;
-}
-
-.final-cta {
-  margin: 0 1.35rem 2rem;
-  max-width: 1140px; margin-left: auto; margin-right: auto;
-  background:
-    linear-gradient(160deg, rgba(11,31,42,0.88) 0%, rgba(20,48,61,0.82) 100%),
-    linear-gradient(160deg, #0B1F2A 0%, #123447 100%);
-  border-radius: 12px;
-  padding: 4rem 1.5rem;
-  text-align: center; color: var(--foam);
-  border: 1px solid rgba(31,168,154,0.25);
-}
-.final-cta h2 {
-  font-size: clamp(2rem, 5vw, 2.85rem);
-  margin-bottom: 0.85rem;
-}
-.final-cta p {
-  max-width: 30em; margin: 0 auto 1.75rem;
-  opacity: 0.9; font-size: 1.05rem;
-}
-.final-cta .ctas { justify-content: center; }
-
-footer {
-  text-align: center; padding: 2.5rem 1.35rem 1.5rem;
-  color: var(--muted); font-size: 0.88rem;
-  border-top: 1px solid var(--line);
-  background: var(--foam-soft);
-}
-.footer-name {
-  font-family: 'Fraunces', serif; font-size: 1.55rem; font-weight: 700;
-  color: var(--navy); margin-bottom: 0.25rem;
-}
-.footer-ar { font-size: 0.85rem; margin-bottom: 0.35rem; opacity: 0.85; }
-.footer-domain {
-  font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase;
-  color: var(--seafoam-deep); font-weight: 800; margin-bottom: 0.75rem;
-}
-footer a { color: var(--seafoam-deep); text-decoration: none; font-weight: 600; }
-footer a:hover { text-decoration: underline; }
-
-.wa-bar {
-  position: fixed; bottom: 0; left: 0; right: 0; z-index: 90;
-  display: flex; gap: 0.55rem; padding: 0.75rem 1rem;
-  background: rgba(255,255,255,0.96);
-  backdrop-filter: blur(12px);
-  border-top: 1px solid var(--line);
-  justify-content: center;
-}
-.wa-bar .btn { flex: 1; max-width: 220px; padding: 0.85rem 1rem; }
-
-.lightbox {
-  display: none; position: fixed; inset: 0; z-index: 200;
-  background: rgba(11,31,42,0.94);
-  align-items: center; justify-content: center; padding: 1.5rem;
-}
-.lightbox.open { display: flex; }
-.lightbox img {
-  max-height: 90vh; max-width: 100%;
-  border-radius: 8px; object-fit: contain;
-}
-.lightbox-close {
-  position: absolute; top: 1rem; right: 1rem;
-  background: rgba(255,255,255,0.12); border: none; color: #fff;
-  width: 2.5rem; height: 2.5rem; border-radius: 50%;
-  font-size: 1.5rem; cursor: pointer; line-height: 1;
-}
-
-@media (min-width: 640px) {
-  .why-grid { grid-template-columns: 1fr 1fr; }
-  .exp-grid { grid-template-columns: 1fr 1fr 1fr; }
-  .gallery-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+  :root{
+    --sea:#04293A;        /* deep Arabian Sea */
+    --sea-2:#0A3D55;
+    --lagoon:#12C9C0;     /* turquoise lagoon */
+    --lagoon-ink:#067A74;
+    --flamingo:#FF4F79;   /* the flamingos of Bar Al Hikman */
+    --salt:#FFFFFF;
+    --salt-flat:#EAF7F7;
+    --ink:#06202C;
+    --muted:#3D5A66;
+    --radius-lg:22px;
+    --radius-sm:10px;
+    --wrap:1160px;
+    --display:"Unbounded", "Arial Black", system-ui, sans-serif;
+    --body:"Figtree", "Segoe UI", system-ui, -apple-system, sans-serif;
+    --arabic:"Noto Kufi Arabic", "Geeza Pro", "Segoe UI", sans-serif;
   }
-  .stay-layout { grid-template-columns: 1.2fr 1fr; }
-}
-@media (min-width: 900px) {
-  .nav-links { display: flex; }
-  .nav-toggle { display: none; }
-  .nav-brand { font-size: 1.85rem; }
-  .location { grid-template-columns: 1.05fr 1fr; gap: 3rem; padding-bottom: 6rem; }
-  .why-band { padding: 5rem 2.5rem; }
-  .hero { padding-left: 3rem; padding-right: 3rem; }
-  .wa-bar { display: none; }
-  body { padding-bottom: 0; }
-}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth;scroll-padding-top:84px}
+  body{margin:0;font-family:var(--body);color:var(--ink);background:var(--salt);line-height:1.6;font-size:17px;-webkit-font-smoothing:antialiased}
+  img{max-width:100%;display:block}
+  a{color:inherit}
+  :focus-visible{outline:3px solid var(--flamingo);outline-offset:3px;border-radius:4px}
+  .wrap{width:min(var(--wrap), 100% - 40px);margin-inline:auto}
+
+  /* Demo banner */
+  .demo-banner{background:var(--flamingo);color:#fff;font-weight:600;font-size:14.5px;text-align:center;padding:9px 16px;line-height:1.4}
+  .demo-banner a{color:#fff;text-decoration:underline;text-underline-offset:2px}
+  .demo-flag{display:inline-block;background:#FFF1B8;color:#5A4300;border:1px dashed #C9A200;font:600 11.5px/1.3 var(--body);padding:2px 7px;border-radius:6px;vertical-align:middle;margin-left:6px;white-space:nowrap}
+
+  /* Nav */
+  header.nav{position:sticky;top:0;z-index:50;background:rgba(4,41,58,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:#fff}
+  .nav-in{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:68px}
+  .brand{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--display);font-weight:700;font-size:17px;letter-spacing:-.01em}
+  .brand-mark{width:34px;height:34px;border-radius:50%;background:linear-gradient(180deg,#fff 0 48%,var(--lagoon) 48% 100%);box-shadow:inset 0 0 0 3px #fff}
+  .nav-links{display:flex;align-items:center;gap:26px;list-style:none;margin:0;padding:0}
+  .nav-links a{text-decoration:none;font-weight:600;font-size:15.5px;opacity:.9}
+  .nav-links a:hover{opacity:1;text-decoration:underline;text-underline-offset:6px;text-decoration-color:var(--lagoon)}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;font:700 16px/1 var(--body);text-decoration:none;border:0;cursor:pointer;border-radius:999px;padding:14px 22px;transition:transform .15s ease, background .15s ease}
+  .btn:hover{transform:translateY(-1px)}
+  .btn-wa{background:#25D366;color:#04291A}
+  .btn-wa:hover{background:#3BE07A}
+  .btn-ghost{background:transparent;color:#fff;box-shadow:inset 0 0 0 2px rgba(255,255,255,.7)}
+  .btn-ghost:hover{box-shadow:inset 0 0 0 2px #fff}
+  .btn svg{width:20px;height:20px;flex:none}
+  .nav .btn{padding:11px 18px;font-size:15px}
+  .menu-toggle{display:none;background:none;border:0;color:#fff;padding:8px;cursor:pointer}
+  @media (max-width:860px){
+    .menu-toggle{display:block}
+    .nav-links{position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:stretch;gap:0;background:var(--sea);padding:8px 20px 18px;display:none}
+    .nav-links.open{display:flex}
+    .nav-links a{display:block;padding:13px 0;border-bottom:1px solid rgba(255,255,255,.12)}
+    .nav-links li:last-child a{border:0;margin-top:12px}
+  }
+
+  /* Hero: a horizon, salt flat above, lagoon below */
+  .hero{position:relative;color:#fff;background:var(--sea);overflow:hidden}
+  .hero-scene{position:absolute;inset:0;background:
+      radial-gradient(circle at 78% 34%, #FFE9A8 0 46px, rgba(255,210,120,.55) 47px, rgba(255,160,120,0) 190px),
+      linear-gradient(180deg,#0B5877 0%,#1C8FA8 38%,#7FD6D4 49.6%,#fff 50%,#fff 50.6%,#18CFC4 50.7%,#0AA9A6 62%,#07607A 82%,#04293A 100%)}
+  .hero-scene::after{content:"";position:absolute;left:0;right:0;top:50.6%;height:3px;background:repeating-linear-gradient(90deg,rgba(255,255,255,.9) 0 60px,rgba(255,255,255,.35) 60px 90px);animation:tide 9s linear infinite}
+  @keyframes tide{to{background-position:900px 0}}
+  .hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(4,41,58,.88) 0%,rgba(4,41,58,.55) 55%,rgba(4,41,58,.1) 100%)}
+  .hero-in{position:relative;padding:92px 0 104px;display:grid;gap:26px;max-width:760px}
+  .hero-ar{font-family:var(--arabic);font-weight:700;font-size:clamp(18px,2.4vw,22px);direction:rtl;text-align:left;unicode-bidi:plaintext;color:#BFF5F2;margin:0}
+  .hero h1{font-family:var(--display);font-weight:800;font-size:clamp(40px,7.2vw,86px);line-height:.98;letter-spacing:-.035em;margin:0}
+  .hero h1 span{display:block}
+  .hero p.lede{font-size:clamp(18px,2.1vw,21px);max-width:560px;margin:0;color:#E6FAFA}
+  .hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+  .hero-facts{display:flex;flex-wrap:wrap;gap:10px;margin:8px 0 0;padding:0;list-style:none}
+  .hero-facts li{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);padding:7px 13px;border-radius:999px;font-weight:600;font-size:14.5px}
+
+  /* Sections */
+  section{padding:96px 0}
+  .sec-head{max-width:640px;margin-bottom:44px}
+  .sec-head h2{font-family:var(--display);font-weight:700;font-size:clamp(30px,4.4vw,48px);line-height:1.05;letter-spacing:-.03em;margin:0 0 14px}
+  .sec-head p{margin:0;color:var(--muted);font-size:18.5px}
+
+  /* Why */
+  #why{background:var(--salt)}
+  .why-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:56px;align-items:start}
+  .why-list{list-style:none;margin:0;padding:0;display:grid;gap:0}
+  .why-list li{display:grid;grid-template-columns:52px 1fr;gap:18px;padding:22px 0;border-top:2px solid var(--salt-flat)}
+  .why-list li:last-child{border-bottom:2px solid var(--salt-flat)}
+  .why-ico{width:52px;height:52px;border-radius:14px;display:grid;place-items:center;background:var(--salt-flat);color:var(--lagoon-ink)}
+  .why-ico svg{width:26px;height:26px}
+  .why-list h3{margin:2px 0 4px;font-size:20px;font-weight:700}
+  .why-list p{margin:0;color:var(--muted)}
+  .why-card{background:var(--sea);color:#fff;border-radius:var(--radius-lg);padding:34px;position:sticky;top:100px}
+  .why-card h3{font-family:var(--display);font-weight:700;font-size:24px;letter-spacing:-.02em;margin:0 0 18px;line-height:1.15}
+  .why-card dl{margin:0;display:grid;gap:16px}
+  .why-card dt{font-weight:700;color:var(--lagoon)}
+  .why-card dd{margin:2px 0 0;color:#DDF3F5}
+  .why-card .src{font-size:13px;color:#9FC3CC;margin-top:22px}
+
+  /* Stay */
+  #stay{background:var(--salt-flat)}
+  .stay-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .stay-item{background:#fff;border-radius:var(--radius-lg);padding:28px;border:2px solid #D3ECEC}
+  .stay-item h3{font-size:21px;margin:0 0 8px;font-weight:700}
+  .stay-item p{margin:0;color:var(--muted)}
+  .stay-item.feature{background:var(--lagoon);border-color:var(--lagoon);color:var(--ink)}
+  .stay-item.feature p{color:#063A38}
+  .stay-note{margin-top:22px;color:var(--muted);font-size:15px}
+
+  /* Gallery */
+  #gallery{background:var(--salt)}
+  .gallery{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:240px;gap:14px}
+  .g-item{position:relative;border-radius:var(--radius-sm);overflow:hidden;margin:0;background:var(--sea-2)}
+  .g-item.tall{grid-row:span 2}
+  .g-item.wide{grid-column:span 2}
+  .g-item img{width:100%;height:100%;object-fit:cover}
+  .g-ph{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:16px;color:#fff}
+  .g-ph .slot{position:absolute;top:12px;left:12px;background:rgba(0,0,0,.55);font-size:12.5px;font-weight:700;padding:4px 9px;border-radius:6px}
+  .g-item figcaption{position:relative;font-weight:700;font-size:16px;text-shadow:0 1px 8px rgba(0,0,0,.45)}
+  .g-item figcaption small{display:block;font-weight:500;font-size:13px;opacity:.92}
+  /* nine distinct placeholder scenes (no repeated image) */
+  .s1{background:linear-gradient(180deg,#FF9A6B 0%,#FFCF8A 40%,#fff 41%,#1BC8C0 42%,#07607A 100%)}
+  .s2{background:radial-gradient(circle at 30% 20%,#fff 0 2px,transparent 3px),radial-gradient(circle at 70% 40%,#fff 0 1.5px,transparent 2.5px),radial-gradient(circle at 50% 10%,#fff 0 1px,transparent 2px),radial-gradient(circle at 85% 18%,#fff 0 1.5px,transparent 2.5px),linear-gradient(180deg,#020B1A 0%,#10285A 70%,#E8A46A 100%)}
+  .s3{background:linear-gradient(160deg,#F7FBFB 0%,#DDECEC 55%,#B9D9DB 100%)}
+  .s3 figcaption,.s3 .slot{color:#06202C;text-shadow:none}
+  .s3 .slot{background:rgba(255,255,255,.8)}
+  .s4{background:repeating-linear-gradient(170deg,#12C9C0 0 26px,#2FDAD0 26px 40px),#12C9C0}
+  .s5{background:linear-gradient(180deg,#8ED9E8 0%,#8ED9E8 55%,#FF4F79 55.5%,#FF86A2 60%,#8ED9E8 60.5%,#1AAFB0 100%)}
+  .s6{background:radial-gradient(ellipse at 50% 110%,#FFB347 0 22%,#E05A2B 40%,#3A1F3F 75%,#12132B 100%)}
+  .s7{background:linear-gradient(135deg,#0A3D55 0%,#12C9C0 100%)}
+  .s8{background:linear-gradient(180deg,#F4E3C1 0%,#E7C995 60%,#C49A5C 100%)}
+  .s8 figcaption{color:#2B1B06;text-shadow:none}
+  .s9{background:linear-gradient(180deg,#5FC6E3 0%,#A6E5F0 50%,#fff 50.5%,#F2F0E8 100%)}
+  .s9 figcaption{color:#06202C;text-shadow:none}
+  .gallery-note{margin-top:18px;font-size:15px;color:var(--muted)}
+  .ig-link{font-weight:700;color:var(--lagoon-ink)}
+
+  /* Getting there: a real sequence, so steps are numbered */
+  #getting-there{background:var(--sea);color:#fff}
+  #getting-there .sec-head p{color:#CDEBEF}
+  .route{display:grid;grid-template-columns:repeat(4,1fr);gap:0;list-style:none;margin:0;padding:0;counter-reset:step}
+  .route li{position:relative;padding:28px 24px 0 0;border-top:3px solid var(--lagoon);counter-increment:step}
+  .route li::before{content:counter(step);position:absolute;top:-19px;left:0;width:36px;height:36px;border-radius:50%;background:var(--lagoon);color:var(--sea);font:800 15px/36px var(--display);text-align:center}
+  .route h3{margin:8px 0 6px;font-size:19px}
+  .route p{margin:0;color:#CDEBEF;font-size:16px}
+  .know{margin-top:52px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .know div{background:var(--sea-2);border-radius:var(--radius-sm);padding:20px 22px}
+  .know strong{display:block;color:var(--lagoon);margin-bottom:4px}
+  .know span{color:#E4F6F8}
+
+  /* Enquire */
+  #enquire{background:var(--salt-flat)}
+  .enq{display:grid;grid-template-columns:1fr 1.1fr;gap:48px;align-items:start}
+  .enq-side .contact{margin-top:28px;display:grid;gap:12px}
+  .contact a{display:flex;align-items:center;gap:12px;text-decoration:none;background:#fff;border:2px solid #D3ECEC;border-radius:14px;padding:14px 16px;font-weight:600}
+  .contact a:hover{border-color:var(--lagoon)}
+  .contact a small{display:block;color:var(--muted);font-weight:500;font-size:13.5px}
+  .contact svg{width:26px;height:26px;flex:none;color:var(--lagoon-ink)}
+  form.enq-form{background:#fff;border-radius:var(--radius-lg);padding:32px;border:2px solid #D3ECEC;display:grid;gap:18px}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  label{display:grid;gap:7px;font-weight:600;font-size:15px}
+  input,select,textarea{font:inherit;font-size:16px;color:var(--ink);background:#fff;border:2px solid #C6DEDF;border-radius:10px;padding:12px 13px;width:100%}
+  input:focus,select:focus,textarea:focus{outline:none;border-color:var(--lagoon-ink);box-shadow:0 0 0 3px rgba(18,201,192,.3)}
+  textarea{min-height:96px;resize:vertical}
+  .form-hint{margin:0;color:var(--muted);font-size:14px}
+  .enq-form .btn{width:100%;padding:17px}
+
+  footer{background:var(--ink);color:#BFD6DC;padding:40px 0;font-size:15px}
+  .foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:18px;align-items:center}
+  footer a{color:#fff}
+  .foot-ar{font-family:var(--arabic);color:#fff}
+
+  .wa-float{position:fixed;right:18px;bottom:18px;z-index:60;width:58px;height:58px;border-radius:50%;background:#25D366;color:#04291A;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.3)}
+  .wa-float svg{width:30px;height:30px}
+
+  @media (max-width:980px){
+    .why-grid,.enq{grid-template-columns:1fr}
+    .why-card{position:static}
+    .stay-grid{grid-template-columns:1fr 1fr}
+    .route{grid-template-columns:1fr 1fr;row-gap:44px}
+    .know{grid-template-columns:1fr}
+  }
+  @media (max-width:640px){
+    section{padding:72px 0}
+    .hero-in{padding:64px 0 76px}
+    .stay-grid,.row{grid-template-columns:1fr}
+    .gallery{grid-template-columns:1fr 1fr;grid-auto-rows:180px}
+    .g-item.wide{grid-column:span 2}
+    .route{grid-template-columns:1fr}
+  }
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    .hero-scene::after{animation:none}
+    .btn{transition:none}
+  }
 </style>
 </head>
 <body>
 
-<div class="demo-banner">Demo preview · Beach Moments · unique photos · v2 · 16 Sep 2026</div>
+<div class="demo-banner" role="note">
+  Preview built for Beach Moments Camp by OpsWithAI. Gallery photos are from @beach_moments_camp; some stay/offer copy is editable demo text. <a href="#enquire">Enquiry form works</a>, it opens WhatsApp.
+</div>
 
 <header class="nav">
-  <a class="nav-brand" href="#">Beach <em>Moments</em><span>Barr Al Hikman · Oman</span></a>
-  <nav class="nav-links" aria-label="Primary">
-    <a href="#why">Why here</a>
-    <a href="#stay">Stay</a>
-    <a href="#experiences">Experiences</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#location">Location</a>
-    <a href="#book">Book</a>
-    <a href="#faq">FAQ</a>
-  </nav>
-  <button class="nav-toggle" type="button" aria-label="Menu" onclick="document.getElementById('nav-m').classList.toggle('open')">Menu</button>
+  <div class="wrap nav-in">
+    <a class="brand" href="#top" aria-label="Beach Moments Camp, back to top"><span class="brand-mark" aria-hidden="true"></span>Beach Moments</a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#why">Why here</a></li>
+      <li><a href="#stay">The stay</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#getting-there">Getting there</a></li>
+      <li><a href="#enquire">Enquire</a></li>
+      <li><a class="btn btn-wa" href="https://wa.me/96891162269?text=Hello%20Beach%20Moments%20Camp%2C%20I%27d%20like%20to%20ask%20about%20booking." target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+        WhatsApp</a></li>
+    </ul>
+  </div>
 </header>
-<nav class="nav-mobile" id="nav-m">
-  <a href="#why" onclick="this.parentElement.classList.remove('open')">Why this beach camp</a>
-  <a href="#stay" onclick="this.parentElement.classList.remove('open')">Stay &amp; privacy</a>
-  <a href="#experiences" onclick="this.parentElement.classList.remove('open')">Experiences</a>
-  <a href="#gallery" onclick="this.parentElement.classList.remove('open')">Gallery</a>
-  <a href="#location" onclick="this.parentElement.classList.remove('open')">Location</a>
-  <a href="#book" onclick="this.parentElement.classList.remove('open')">How to book</a>
-  <a href="#faq" onclick="this.parentElement.classList.remove('open')">FAQ</a>
-</nav>
 
-<section class="hero">
-  <div class="hero-inner">
-    <p class="eyebrow">Barr Al Hikman · Coastal Oman</p>
-    <p class="hero-ar">مخيم لحظات الشاطئ بر الحكمان</p>
-    <h1>Soft tides,<br><em>private shore</em></h1>
-    <p class="hero-lead">A beach camp on Barr Al Hikman where white sand, sunset cabanas, and quiet huts set the pace. Slow evenings, open horizon, and hospitality that feels personal.</p>
-    <div class="ctas">
-      <a class="btn btn-wa" href="https://wa.me/96891162269" target="_blank" rel="noopener">WhatsApp to enquire</a>
-      <a class="btn btn-ghost" href="tel:+96891162269">Call +968 9116 2269</a>
-    </div>
-  </div>
-</section>
-
-<section class="why-band" id="why" style="margin-top:0">
-  <div class="section" style="max-width:1140px">
-    <p class="section-label">Why this beach camp</p>
-    <h2>Coastal calm,<br>without the crowds</h2>
-    <p class="lede">Barr Al Hikman stretches wide and quiet. Beach Moments Camp sits on that shore — space between huts, soft light at dusk, and nights that belong to the sea and stars.</p>
-    <div class="why-grid">
-      <div class="why-card">
-        <div class="num">01</div>
-        <h3>White-sand shoreline</h3>
-        <p>Wide pale beach and clear aqua shallows — the kind of coast you came to Oman to find, with room to walk and breathe.</p>
-      </div>
-      <div class="why-card">
-        <div class="num">02</div>
-        <h3>Sunset on the sand</h3>
-        <p>A thatched cabana faces the horizon. Lounge chairs, warm light, and the last gold of the day over still water.</p>
-      </div>
-      <div class="why-card">
-        <div class="num">03</div>
-        <h3>Spaced for privacy</h3>
-        <p>Beach huts sit apart across the sand — your own shelter, not a crowded row. Quiet mornings and unhurried nights.</p>
-      </div>
-      <div class="why-card">
-        <div class="num">04</div>
-        <h3>Easy on WhatsApp</h3>
-        <p>Message your dates and ETA. We help with arrival so the last stretch to Barr Al Hikman feels simple.</p>
+<main id="top">
+  <section class="hero" aria-labelledby="hero-title" style="padding:0">
+    <div class="hero-scene" aria-hidden="true"></div>
+    <div class="hero-shade" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="hero-in">
+        <p class="hero-ar" lang="ar">مخيم لحظات الشاطئ · بر الحكمان</p>
+        <h1 id="hero-title"><span>Beach Moments</span><span>Camp</span></h1>
+        <p class="lede">Sleep a few steps from the sea at Bar Al Hikman, where white sand, turquoise lagoons and empty salt flats meet the Arabian Sea.</p>
+        <div class="hero-cta">
+          <a class="btn btn-wa" href="https://wa.me/96891162269?text=Hello%20Beach%20Moments%20Camp%2C%20I%27d%20like%20to%20check%20availability." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+            Check availability on WhatsApp</a>
+          <a class="btn btn-ghost" href="#gallery">See the camp</a>
+        </div>
+        <ul class="hero-facts" aria-label="Quick facts">
+          <li>Bar Al Hikman, Al Wusta</li>
+          <li>Beachfront camping</li>
+          <li>Best season Oct to Mar</li>
+        </ul>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="stay" id="stay">
-  <p class="section-label">Stay &amp; privacy</p>
-  <h2>Huts on the <em>open beach</em></h2>
-  <p class="lede">Simple coastal shelters spaced along the sand — private enough to rest, close enough to the shore that you hear the tide. Ask on WhatsApp what is available for your dates.</p>
-  <div class="stay-layout">
-    <article class="stay-card">
-      <div class="photo-panel" role="img" aria-label="Beach Moments Camp huts" style="min-height:320px;background:linear-gradient(135deg,#0B1F2A,#1FA89A);border-radius:1rem"></div>
-      <div class="stay-body">
-        <h3>Private beach huts</h3>
-        <p>Dark natural-material shelters set apart on pale sand — a quiet base for couples and small groups who want shore, not city.</p>
-        <div class="pill-row">
-          <span class="pill">Spaced units</span>
-          <span class="pill">Beachfront</span>
-          <span class="pill">Quiet nights</span>
+  <section id="why" aria-labelledby="why-title">
+    <div class="wrap why-grid">
+      <div>
+        <div class="sec-head">
+          <h2 id="why-title">One of Oman’s most remote beaches</h2>
+          <p>Bar Al Hikman is the kind of place people drive five hours for, and then don’t want to leave.</p>
         </div>
+        <ul class="why-list">
+          <li>
+            <span class="why-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 16c2 0 2-1.5 4-1.5S8 16 10 16s2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5M2 20c2 0 2-1.5 4-1.5S8 20 10 20s2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5"/><circle cx="17" cy="7" r="3"/></svg></span>
+            <div><h3>Lagoons you can wade into</h3><p>Warm, shallow, clear water that’s safe for a slow swim, a paddle or a kayak at low tide.</p></div>
+          </li>
+          <li>
+            <span class="why-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21v-7M9 14c-3 0-5-2-5-5a5 5 0 0 1 10 0M14 9c0 2 2 3 4 3l3-2-3-1"/></svg></span>
+            <div><h3>Flamingos and migrating birds</h3><p>The tidal flats draw flamingos and dozens of other species between autumn and spring.</p></div>
+          </li>
+          <li>
+            <span class="why-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 4.6L18.5 8l-3.6 3 1.1 4.8L12 13.4 8 15.8 9.1 11 5.5 8l4.7-.4Z"/></svg></span>
+            <div><h3>Night skies without city light</h3><p>No towns nearby and almost no phone signal. Just the campfire, the tide and a sky full of stars.</p></div>
+          </li>
+          <li>
+            <span class="why-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h18M6 8l-3 4 3 4M18 8l3 4-3 4"/></svg></span>
+            <div><h3>Kite surfing in summer</h3><p>Steady monsoon-edge winds make the flat water a known kite spot in the hotter months.</p></div>
+          </li>
+        </ul>
       </div>
-    </article>
-    <article class="stay-card">
-      <div class="photo-panel" role="img" aria-label="Starlit beach camp" style="min-height:280px;background:linear-gradient(160deg,#061018,#1a3a4a);border-radius:1rem"></div>
-      <div class="stay-body">
-        <h3>Lit after dark</h3>
-        <p>Warm amber glow from the huts, soft path lights, and a sky full of stars — Barr Al Hikman nights away from town light.</p>
-        <div class="pill-row">
-          <span class="pill">Starry sky</span>
-          <span class="pill">Warm light</span>
-          <span class="pill">Remote calm</span>
-        </div>
+      <aside class="why-card" aria-labelledby="place-title">
+        <h3 id="place-title">About the place</h3>
+        <dl>
+          <div><dt>Longest natural sand bar in the Middle East</dt><dd>Oman’s largest tidal plain, about 2,900 km² of salt flats, inlets and beach.</dd></div>
+          <div><dt>Around 450 to 500 km from Muscat</dt><dd>Roughly a five-hour drive, with the last stretch across open salt flats.</dd></div>
+          <div><dt>A true digital detox</dt><dd>Expect little or no mobile signal once you reach the beach.</dd></div>
+        </dl>
+        <p class="src">Place facts from public travel guides to Bar Al Hikman.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section id="stay" aria-labelledby="stay-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="stay-title">The stay <span class="demo-flag">Demo text, confirm details</span></h2>
+        <p>A simple, comfortable base right on the beach, run by a local team who know the coast.</p>
       </div>
-    </article>
-  </div>
-</section>
-
-<section class="exp-section" id="experiences">
-  <div class="exp-inner">
-    <p class="section-label">Experiences</p>
-    <h2>Beach, sunset, <em>quiet</em></h2>
-    <p class="lede">The camp is your base. The shore is why you came. Shape the day — or leave room for nothing at all.</p>
-    <div class="exp-grid">
-      <article class="exp-card">
-        <div class="exp-card-body">
-          <span class="exp-tag">Beach</span>
-          <h3>Walk the pale shore</h3>
-          <p>Long stretches of white sand and translucent shallows. Morning light, empty horizon, and the soft rhythm of Barr Al Hikman.</p>
-        </div>
-      </article>
-      <article class="exp-card">
-        <div class="exp-card-body">
-          <span class="exp-tag">Sunset</span>
-          <h3>Cabana at golden hour</h3>
-          <p>Settle under the thatch as the sun drops into the water. Lounge chairs face the glow — a simple, unforgettable evening.</p>
-        </div>
-      </article>
-      <article class="exp-card">
-        <div class="exp-card-body">
-          <span class="exp-tag">Quiet</span>
-          <h3>Shore &amp; stillness</h3>
-          <p>Fishing on the flats, slow walks, or simply sitting with the tide. Ask us how guests usually spend unhurried coastal days.</p>
-        </div>
-      </article>
+      <div class="stay-grid">
+        <div class="stay-item feature"><h3>Beachfront tents</h3><p>Shaded tents with bedding, set back from the tide line so you wake up to the sea.</p></div>
+        <div class="stay-item"><h3>Dinner and breakfast</h3><p>Home-style Omani meals, fresh fish when the boats come in, and coffee and dates on arrival.</p></div>
+        <div class="stay-item"><h3>Campfire majlis</h3><p>A shared seating area for tea, stories and stargazing after sunset.</p></div>
+        <div class="stay-item"><h3>Families and groups</h3><p>Space for friends, families and tour groups. Private setups on request.</p></div>
+        <div class="stay-item"><h3>Sea activities</h3><p>Swimming, kayaking and paddle boarding in the lagoon. Boat trips can be arranged.</p></div>
+        <div class="stay-item"><h3>Guided 4×4 help</h3><p>Not confident on the salt flats? Ask about meeting points and a guided route in.</p></div>
+      </div>
+      <p class="stay-note">Tent types, meals, activities and prices above are placeholders written for this preview. Beach Moments Camp should replace them with what they actually offer.</p>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="gallery-wrap" id="gallery">
-  <p class="section-label">Gallery</p>
-  <h2>A sense of <em>place</em></h2>
-  <p class="lede">Photos from the camp’s Instagram — sunset cabana, shore days, spaced huts, and nights under Barr Al Hikman stars.</p>
-  <div class="gallery-grid">
-    <figure><img src="images-ig/02.jpg" alt="Shore fishing catch" data-full="images-ig/02.jpg" onclick="openLb(this)"><figcaption>Shore day</figcaption></figure>
-    <figure><img src="images-ig/03.jpg" alt="Night camp under stars" data-full="images-ig/03.jpg" onclick="openLb(this)"><figcaption>Starlit camp</figcaption></figure>
-    <figure><img src="images-ig/04.jpg" alt="Aqua water and white beach" data-full="images-ig/04.jpg" onclick="openLb(this)"><figcaption>Aqua shore</figcaption></figure>
-    <figure><img src="images-ig/05.jpg" alt="Beach huts on pale sand" data-full="images-ig/05.jpg" onclick="openLb(this)"><figcaption>Beach huts</figcaption></figure>
-  </div>
-</section>
-
-<section class="location" id="location">
-  <div class="loc-visual">
+  <section id="gallery" aria-labelledby="gallery-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="gallery-title">Moments from the camp</h2>
+        <p>Nine photo slots, one image each. Swap in real photos from <a class="ig-link" href="https://www.instagram.com/beach_moments_camp/" target="_blank" rel="noopener">@beach_moments_camp</a>.</p>
+      </div>
+      <div class="gallery" id="gallery-grid"></div>
+      <p class="gallery-note">Gallery photos sourced from the public Instagram @beach_moments_camp. Offer details remain editable demo copy.</p>
     </div>
-  <div>
-    <p class="section-label">Location</p>
-    <h2>Barr Al Hikman</h2>
-    <p class="lede" style="margin-bottom:1.25rem">On Oman’s quiet eastern coast — bar Hikman / Barr Al Hikman, where pale flats meet soft aqua water. A practical base for slow beach days and remote coastal nights.</p>
-    <div class="loc-card">
-      <h3>Getting here</h3>
-      <p>Self-drive is common. Share your route or ETA on WhatsApp and we will help with the final approach so you arrive without circling.</p>
-      <div class="ctas" style="margin-top:1.25rem">
-        <a class="btn btn-seafoam" href="https://wa.me/96891162269?text=Hi%20Beach%20Moments%20Camp%20%E2%80%94%20I%27d%20like%20directions%20/%20to%20enquire%20about%20a%20stay" target="_blank" rel="noopener">Ask for directions</a>
+  </section>
+
+  <section id="getting-there" aria-labelledby="route-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="route-title">Getting there</h2>
+        <p>Part of the magic is the journey. Plan for a full day of driving from Muscat.</p>
+      </div>
+      <ol class="route">
+        <li><h3>Leave Muscat early</h3><p>Head south on the coastal and interior roads toward Al Wusta.</p></li>
+        <li><h3>Reach Mahout area</h3><p>Top up fuel, water and snacks. This is the last easy stop.</p></li>
+        <li><h3>Cross the salt flats</h3><p>A 4×4 is essential. Follow the tracks the camp shares with you.</p></li>
+        <li><h3>Arrive at camp</h3><p>Message us on WhatsApp before you lose signal so we can guide you in. <span class="demo-flag">Confirm route</span></p></li>
+      </ol>
+      <div class="know">
+        <div><strong>Vehicle</strong><span>4×4 required for the off-road stretch.</span></div>
+        <div><strong>Best time</strong><span>October to March for cooler days. Summer brings wind and kite surfers.</span></div>
+        <div><strong>Signal</strong><span>Little or none on the beach. Share your plans before you go.</span></div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="booking" id="book">
-  <div class="booking-inner">
-    <p class="section-label">How to book</p>
-    <h2>Three steps on WhatsApp</h2>
-    <p class="lede">No complicated forms. Tell us your dates and we will confirm availability, what’s included, and how to hold your stay.</p>
-    <div class="steps">
-      <div class="step">
-        <div class="step-num">1</div>
-        <div>
-          <h3>Message us</h3>
-          <p>WhatsApp +968 9116 2269 with your dates, number of guests, and any preferences. You can also reach +968 9116 2267.</p>
+  <section id="enquire" aria-labelledby="enq-title">
+    <div class="wrap enq">
+      <div class="enq-side">
+        <div class="sec-head" style="margin-bottom:0">
+          <h2 id="enq-title">Book your nights by the sea</h2>
+          <p>Tell us your dates and group size. The form writes the message for you and opens WhatsApp, so there’s nothing to sign up for.</p>
+        </div>
+        <div class="contact">
+          <a href="https://wa.me/96891162269" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+            <span>+968 9116 2269<small>WhatsApp bookings</small></span></a>
+          <a href="https://wa.me/96891162267" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+            <span>+968 9116 2267<small>Second WhatsApp line</small></span></a>
+          <a href="https://www.instagram.com/beach_moments_camp/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+            <span>@beach_moments_camp<small>Photos and updates on Instagram</small></span></a>
         </div>
       </div>
-      <div class="step">
-        <div class="step-num">2</div>
-        <div>
-          <h3>Confirm details</h3>
-          <p>We reply with availability and what’s included. Ask about rates on WhatsApp — we do not list fixed prices here.</p>
+
+      <form class="enq-form" id="enq-form" novalidate>
+        <div class="row">
+          <label>Your name<input name="name" autocomplete="name" placeholder="e.g. Sara"></label>
+          <label>Guests
+            <select name="guests">
+              <option>1 to 2</option><option selected>3 to 5</option><option>6 to 10</option><option>More than 10</option>
+            </select>
+          </label>
         </div>
-      </div>
-      <div class="step">
-        <div class="step-num">3</div>
-        <div>
-          <h3>Arrive &amp; unwind</h3>
-          <p>Share your ETA, settle into your hut, and let the Barr Al Hikman shore set the pace.</p>
+        <div class="row">
+          <label>Arrival date<input type="date" name="arrive"></label>
+          <label>Nights
+            <select name="nights"><option>1 night</option><option selected>2 nights</option><option>3 nights</option><option>4+ nights</option></select>
+          </label>
         </div>
-      </div>
+        <label>Anything we should know?<textarea name="msg" placeholder="Kids in the group, need a guide in, dietary needs..."></textarea></label>
+        <p class="form-hint">Opens WhatsApp with your message ready to send to +968 9116 2269.</p>
+        <button type="submit" class="btn btn-wa">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+          Send enquiry on WhatsApp</button>
+      </form>
     </div>
-    <div class="ctas" style="margin-top:2.25rem;justify-content:center">
-      <a class="btn btn-wa" href="https://wa.me/96891162269" target="_blank" rel="noopener">WhatsApp to book</a>
-      <a class="btn btn-ghost" href="tel:+96891162269" style="border-color:rgba(255,255,255,0.45)">Call +968 9116 2269</a>
-    </div>
-  </div>
-</section>
-
-<section class="faq" id="faq">
-  <p class="section-label">FAQ</p>
-  <h2>Good to know</h2>
-  <details>
-    <summary>Where is Beach Moments Camp?</summary>
-    <p>On Barr Al Hikman (bar Hikman / بر الحكمان) on Oman’s eastern coast. Message us for a pin and arrival tips for your vehicle type.</p>
-  </details>
-  <details>
-    <summary>What kind of stay is it?</summary>
-    <p>A beach camp with spaced huts / shelters on the sand, sunset cabana seating, and quiet coastal nights. Confirm unit type and inclusions for your dates on WhatsApp.</p>
-  </details>
-  <details>
-    <summary>Is it suitable for couples or small groups?</summary>
-    <p>Travellers stay as couples and small groups seeking privacy by the shore. Tell us ages and needs when you enquire and we will advise what works best.</p>
-  </details>
-  <details>
-    <summary>How do I check rates and availability?</summary>
-    <p>Message or call us with your dates. We prefer to quote on WhatsApp so we can match season, group size, and what’s included accurately.</p>
-  </details>
-  <details>
-    <summary>Which number should I use?</summary>
-    <p>Primary WhatsApp is +968 9116 2269. Secondary line: +968 9116 2267. Instagram: @beach_moments_camp.</p>
-  </details>
-</section>
-
-<section class="final-cta">
-  <h2>Ready for Barr Al Hikman quiet?</h2>
-  <p>Enquire about your dates — we will reply with availability and everything you need to plan the stay.</p>
-  <div class="ctas">
-    <a class="btn btn-wa" href="https://wa.me/96891162269" target="_blank" rel="noopener">WhatsApp +968 9116 2269</a>
-    <a class="btn btn-ghost" href="tel:+96891162269">Call now</a>
-  </div>
-</section>
+  </section>
+</main>
 
 <footer>
-  <p class="footer-name">Beach Moments Camp</p>
-  <p class="footer-ar">مخيم لحظات الشاطئ بر الحكمان</p>
-  <p class="footer-domain">beachmomentscamp.com</p>
-  <p>Barr Al Hikman · Oman</p>
-  <p style="margin-top:0.85rem">
-    <a href="https://wa.me/96891162269">WhatsApp</a> ·
-    <a href="tel:+96891162269">+968 9116 2269</a> ·
-    <a href="tel:+96891162267">+968 9116 2267</a>
-  </p>
-  <p style="margin-top:0.5rem"><a href="https://www.instagram.com/beach_moments_camp/" target="_blank" rel="noopener">@beach_moments_camp</a></p>
-  <p style="margin-top:1.1rem;opacity:0.65;font-size:0.7rem">Demo preview — not the live website</p>
+  <div class="wrap foot">
+    <div><strong style="color:#fff">Beach Moments Camp</strong> <span class="foot-ar" lang="ar">مخيم لحظات الشاطئ</span><br>Bar Al Hikman, Al Qārin, Sultanate of Oman</div>
+    <div>beachmomentscamp.com <span class="demo-flag">Proposed domain</span><br>Demo site by OpsWithAI</div>
+  </div>
 </footer>
 
-<div class="wa-bar" aria-label="Quick contact">
-  <a class="btn btn-wa" href="https://wa.me/96891162269" target="_blank" rel="noopener">WhatsApp</a>
-  <a class="btn btn-seafoam" href="tel:+96891162269">Call</a>
-</div>
+<a class="wa-float" href="https://wa.me/96891162269?text=Hello%20Beach%20Moments%20Camp%21" target="_blank" rel="noopener" aria-label="Chat with Beach Moments Camp on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.1s.9 2.4 1 2.6c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+</a>
 
-<div class="lightbox" id="lb" onclick="if(event.target===this)closeLb()">
-  <button class="lightbox-close" type="button" onclick="closeLb()" aria-label="Close">&times;</button>
-  <img id="lb-img" src="" alt="">
-</div>
 <script>
-function openLb(el){var lb=document.getElementById('lb');document.getElementById('lb-img').src=el.dataset.full||el.src;lb.classList.add('open');document.body.style.overflow='hidden';}
-function closeLb(){document.getElementById('lb').classList.remove('open');document.body.style.overflow='';}
-document.addEventListener('keydown',function(e){if(e.key==='Escape')closeLb();});
+/* ============================================================
+   PHOTO SLOTS — edit here.
+   Put real photos next to index.html (e.g. images/01.jpg) and set
+   `src`. Leave src empty to show the marked placeholder.
+   Each slot must use a DIFFERENT photo. If an image fails to load,
+   the placeholder is shown instead, so the grid never breaks.
+   ============================================================ */
+const PHOTOS = [
+  { src: "images-ig/01.jpg", size: "wide", scene: "s1", title: "Beach camp at Bar Al Hikman",  hint: "From @beach_moments_camp" },
+  { src: "images-ig/02.jpg", size: "tall", scene: "s2", title: "Cabana by the shore",          hint: "From @beach_moments_camp" },
+  { src: "images-ig/03.jpg", size: "",     scene: "s3", title: "Camp life",                   hint: "From @beach_moments_camp" },
+  { src: "images-ig/04.jpg", size: "",     scene: "s4", title: "Coastal stay",                hint: "From @beach_moments_camp" },
+  { src: "images-ig/05.jpg", size: "wide", scene: "s5", title: "Evenings at camp",            hint: "From @beach_moments_camp" }
+];
+
+(function buildGallery(){
+  const grid = document.getElementById("gallery-grid");
+  const seen = new Set();
+  PHOTOS.forEach((p, i) => {
+    const n = String(i + 1).padStart(2, "0");
+    const fig = document.createElement("figure");
+    fig.className = "g-item " + (p.size || "");
+    const placeholder = () => {
+      fig.classList.add(p.scene);
+      fig.innerHTML = `<div class="g-ph" role="img" aria-label="Photo placeholder: ${p.title}">
+        <span class="slot">Photo slot ${n}, add from Instagram</span>
+        <figcaption>${p.title}<small>${p.hint}</small></figcaption></div>`;
+    };
+    if (p.src && !seen.has(p.src)) {
+      seen.add(p.src);
+      const img = new Image();
+      img.alt = p.title;
+      img.loading = "lazy";
+      img.src = p.src;
+      img.onerror = () => placeholder();
+      fig.appendChild(img);
+    } else {
+      placeholder();
+    }
+    grid.appendChild(fig);
+  });
+})();
+
+/* Mobile menu */
+(function(){
+  const btn = document.querySelector(".menu-toggle");
+  const links = document.getElementById("nav-links");
+  btn.addEventListener("click", () => {
+    const open = links.classList.toggle("open");
+    btn.setAttribute("aria-expanded", open);
+  });
+  links.querySelectorAll("a").forEach(a => a.addEventListener("click", () => {
+    links.classList.remove("open"); btn.setAttribute("aria-expanded", false);
+  }));
+})();
+
+/* Enquiry form -> WhatsApp */
+document.getElementById("enq-form").addEventListener("submit", e => {
+  e.preventDefault();
+  const f = new FormData(e.target);
+  const lines = [
+    "Hello Beach Moments Camp, I'd like to book.",
+    f.get("name") ? "Name: " + f.get("name") : "",
+    "Guests: " + f.get("guests"),
+    f.get("arrive") ? "Arrival: " + f.get("arrive") : "Arrival: flexible",
+    "Stay: " + f.get("nights"),
+    f.get("msg") ? "Notes: " + f.get("msg") : ""
+  ].filter(Boolean);
+  window.open("https://wa.me/96891162269?text=" + encodeURIComponent(lines.join("\n")), "_blank", "noopener");
+});
 </script>
 </body>
 </html>
